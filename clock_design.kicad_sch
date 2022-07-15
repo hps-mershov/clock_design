@@ -2392,7 +2392,7 @@
   (symbol (lib_id "HPS:GND") (at 139.7 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1db71ecb-f082-4fe1-8e62-514bcfaa0e2d)
-    (property "Reference" "#PWR?" (id 0) (at 139.7 146.05 0)
+    (property "Reference" "#PWR0124" (id 0) (at 139.7 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 139.7 144.78 0)
@@ -2857,7 +2857,7 @@
   (symbol (lib_id "HPS:LED_0805_GRN") (at 139.7 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6e5c2306-97c3-4235-b971-b2ebb60a6cd6)
-    (property "Reference" "D?" (id 0) (at 143.51 132.4101 90)
+    (property "Reference" "D4" (id 0) (at 143.51 132.4101 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_0805_GRN" (id 1) (at 143.51 134.9501 90)
@@ -3312,7 +3312,7 @@
   (symbol (lib_id "HPS:R_0805_2.2K") (at 139.7 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b5ae2498-fe7c-40d9-922a-566679c1819f)
-    (property "Reference" "R?" (id 0) (at 142.24 118.1099 0)
+    (property "Reference" "R17" (id 0) (at 142.24 118.1099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0805_2.2K" (id 1) (at 142.24 120.6499 0)
@@ -3793,6 +3793,9 @@
     (path "/61bf49de-7bf3-4092-92f7-a9f338e64263/bcc6b2da-5372-491a-a68e-5399a24ca618"
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
     )
+    (path "/1db71ecb-f082-4fe1-8e62-514bcfaa0e2d"
+      (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
+    )
     (path "/398dcb48-e636-4c28-8701-b4906ea4df14/dba4083a-e1a5-423f-9fef-86e5703e621a"
       (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
     )
@@ -3822,9 +3825,6 @@
     )
     (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/1d8e08a7-1e2b-498a-b1ad-8711d6eff66a"
       (reference "#PWR0136") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/1db71ecb-f082-4fe1-8e62-514bcfaa0e2d"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/12399143-5f74-45ac-8086-3f780cf2c591"
       (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "footprints:BatteryHolder_Keystone_106_1x20mm")
@@ -3905,7 +3905,7 @@
       (reference "D3") (unit 1) (value "KWM-30881CVB") (footprint "footprints:KWM-30881CVB")
     )
     (path "/6e5c2306-97c3-4235-b971-b2ebb60a6cd6"
-      (reference "D?") (unit 1) (value "LED_0805_GRN") (footprint "footprints:LED_0805_2012Metric")
+      (reference "D4") (unit 1) (value "LED_0805_GRN") (footprint "footprints:LED_0805_2012Metric")
     )
     (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/8d63d620-db80-4923-8b2e-4dba06f0aba5"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "footprints:MountingHole_3.2mm_M3")
@@ -3994,6 +3994,9 @@
     (path "/61bf49de-7bf3-4092-92f7-a9f338e64263/f6166ff2-d0f8-4b30-98b1-5cbab8d928c1"
       (reference "R16") (unit 1) (value "R_0805_22K") (footprint "footprints:R_0805_2012Metric")
     )
+    (path "/b5ae2498-fe7c-40d9-922a-566679c1819f"
+      (reference "R17") (unit 1) (value "R_0805_2.2K") (footprint "footprints:R_0805_2012Metric")
+    )
     (path "/61bf49de-7bf3-4092-92f7-a9f338e64263/13c76214-6134-446b-8d07-3a965a1923e5"
       (reference "R18") (unit 1) (value "R_0805_22K") (footprint "footprints:R_0805_2012Metric")
     )
@@ -4008,9 +4011,6 @@
     )
     (path "/398dcb48-e636-4c28-8701-b4906ea4df14/af220a00-d26f-4981-b9c7-863fb831abe9"
       (reference "R23") (unit 1) (value "R_0805_47") (footprint "footprints:R_0805_2012Metric")
-    )
-    (path "/b5ae2498-fe7c-40d9-922a-566679c1819f"
-      (reference "R?") (unit 1) (value "R_0805_2.2K") (footprint "footprints:R_0805_2012Metric")
     )
     (path "/1ded9e65-d766-4467-8652-a295879c8ab2/aa99d72d-ef0a-4c0c-95ca-bb3964a1ede7"
       (reference "SW1") (unit 1) (value "Omron_B3F_SPST") (footprint "footprints:SW_SPST_Omron_B3FS-100xP")
