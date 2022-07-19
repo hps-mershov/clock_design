@@ -2253,7 +2253,7 @@
       (effects (font (size 1.27 1.27) italic) (justify right) hide)
     )
   )
-  (global_label "DEBUG_LED_0" (shape output) (at 69.85 157.48 0) (fields_autoplaced)
+  (global_label "DEBUG_LED_1" (shape output) (at 69.85 157.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27) italic) (justify left))
     (uuid aaec89bf-eead-4f53-8e0a-9d0f0efdf20a)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 85.4001 157.4006 0)
@@ -4032,63 +4032,6 @@
     )
     (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/29029624-3d59-42c7-a22f-760ec8945a2a"
       (reference "TP2") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/6f095ff8-89d8-47b7-bf70-70b96455cf28"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/230e0172-3aea-4c9a-b894-ade73caea90c"
-      (reference "TP4") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/acf742f7-4dbb-46da-a18b-c87bc15c7a0a"
-      (reference "TP5") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/e181b7d9-f696-41e9-af2b-d5088ea78d91"
-      (reference "TP6") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/0dd9a317-7931-40f0-809b-2d8c5309978c"
-      (reference "TP7") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/5ad20c18-d3a3-40c0-91ad-ecad1064a8af"
-      (reference "TP8") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/78246a38-335b-4eb6-a50d-47a42c39a108"
-      (reference "TP9") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/aa7d6f72-f6af-4dd5-9537-95015a7af6c7"
-      (reference "TP10") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/ed6d4011-33b4-4f43-bb79-36ce816ea052"
-      (reference "TP11") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/ff928f2c-488e-49ae-880e-8e20cd3d8575"
-      (reference "TP12") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/77840552-51c5-4f37-b046-0ca68df8cc21"
-      (reference "TP13") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/49d4c9ff-f35a-48d9-aabd-2a8ad4d82ebb"
-      (reference "TP14") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/41ed9bf5-dbf5-4b95-9d91-985c555c0fed"
-      (reference "TP15") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/e09672a2-cfae-4465-afb9-66a3a11f74a9"
-      (reference "TP16") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/9e2c471f-2559-4157-b751-d0d822cef252"
-      (reference "TP17") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/7513c72b-885f-405c-8586-2dec0c6c1346"
-      (reference "TP18") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/038fceb6-4e3b-4c47-8d8d-4a8a83e3b908"
-      (reference "TP19") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/4743a689-1148-47d0-9861-65bfead59bfe"
-      (reference "TP20") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/57335f5e-6acc-4605-80a9-ff8282204976"
-      (reference "TP21") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
     (path "/e73d99b1-0f17-4396-814b-a78c0ffe84da/dee72d4b-97fa-40ed-9288-9a36390b0b0c"
       (reference "TP22") (unit 1) (value "TestPoint") (footprint "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm")
